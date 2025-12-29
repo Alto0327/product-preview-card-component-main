@@ -123,9 +123,17 @@ main {
 @media (min-width: 768px) {
     .container{
         display: flex;
+        align-items: center;
     }
-    .product-image,
+
+    .product-image {
+        flex: 1.25;
+    }
+
     .text {
-        flex: 1;
+        flex: 0.75;
+    }
+    .text > * {
+        margin-bottom: 1.75rem;
     }
 }
