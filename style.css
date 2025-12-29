@@ -25,27 +25,31 @@ body{
 }
 
 main {
-    flex: 1;
-    display: grid;
-    place-items: center;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
 }
 
 .container {
-    width: 90%;
-    max-width: 600px; 
-
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: white;
-
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
 }
 
 .text{
     padding: 1.5rem;
 }
-.text > *{
-    padding: .5rem;
-    color: var(--grey)
+
+.text > * {
+  margin-bottom: 0.75rem;
+  color: var(--grey);
+}
+
+.text > *:last-child {
+  margin-bottom: 0;
 }
 
 .product-image {
