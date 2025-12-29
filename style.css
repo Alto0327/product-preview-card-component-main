@@ -112,7 +112,10 @@ main {
     line-height: 160%;
     font-weight: bold;
 }
-
+.btn:hover{
+    background-color: var(--Dgreen);
+    cursor: pointer;
+}
 @media (min-width: 768px) {
   .container{
     display: flex;
